@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="MatrixMultiplication" targetName="gemm_packing_4_4_1" />
+      <config projectName="MatrixMultiplication" targetName="gemm_packing_4_4_0" />
+      <config projectName="MatrixMultiplication" targetName="gemm_packing_4_4_openmp_0" />
+      <config projectName="MatrixMultiplication" targetName="gemm_blocking_4_4_0" />
+      <config projectName="MatrixMultiplication" targetName="gemm_packing_4_4_openmp_1" />
+      <config projectName="MatrixMultiplication" targetName="gemm_4_1_4" />
+      <config projectName="MatrixMultiplication" targetName="gemm_4_1_3" />
+      <config projectName="MatrixMultiplication" targetName="gemm_4_1_2" />
+      <config projectName="MatrixMultiplication" targetName="gemm_4_1_1" />
+      <config projectName="MatrixMultiplication" targetName="gemm_4_4_3" />
+      <config projectName="MatrixMultiplication" targetName="gemm1" />
+      <config projectName="MatrixMultiplication" targetName="gemm0" />
+      <config projectName="MatrixMultiplication" targetName="gemm_4_4_0" />
+      <config projectName="MatrixMultiplication" targetName="vector_mul_fma" />
+      <config projectName="MatrixMultiplication" targetName="utils" />
+      <config projectName="MatrixMultiplication" targetName="pre_transpose" />
+      <config projectName="MatrixMultiplication" targetName="simple" />
+      <config projectName="MatrixMultiplication" targetName="gemm_packing_4_4_pthread_0" />
+      <config projectName="MatrixMultiplication" targetName="gemm_4_4_1" />
+      <config projectName="MatrixMultiplication" targetName="gemm_openblas" />
+      <config projectName="MatrixMultiplication" targetName="gemm_4_4_3_avx" />
+      <config projectName="MatrixMultiplication" targetName="gemm_4_4_2" />
+      <config projectName="MatrixMultiplication" targetName="vector_mul_avx" />
+      <config projectName="MatrixMultiplication" targetName="row_openmp" />
+      <config projectName="MatrixMultiplication" targetName="pre_transpose_avx" />
+      <config projectName="MatrixMultiplication" targetName="gemm_packing_4_4_2" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e1cf1712-5988-43d5-9d6c-f55b2c7646b6" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="1737106770">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="29" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.14" value="4" />
+          <entry key="project.open.time.15" value="10" />
+          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.17" value="3" />
+          <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="c" value="10434" />
+          <entry key="h" value="155" />
+          <entry key="m" value="14" />
+          <entry key="py" value="21" />
+          <entry key="sh" value="79" />
+          <entry key="test_config" value="104" />
+          <entry key="txt" value="723" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Bash" value="79" />
+          <entry key="CMakeLists.txt" value="723" />
+          <entry key="ObjectiveC" value="10603" />
+          <entry key="PLAIN_TEXT" value="104" />
+          <entry key="Python" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="a" value="1" />
+          <entry key="c" value="220" />
+          <entry key="gemm_packing_4_4_pthread_0 (disassembly)" value="5" />
+          <entry key="h" value="49" />
+          <entry key="png" value="8" />
+          <entry key="pre_transpose_1000_1000_1000" value="1" />
+          <entry key="pre_transpose_avx_1000_1000_1000" value="1" />
+          <entry key="py" value="9" />
+          <entry key="sh" value="2" />
+          <entry key="test_config" value="7" />
+          <entry key="test_config_data" value="3" />
+          <entry key="txt" value="62" />
+          <entry key="vector_mul_avx (disassembly)" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Bash" value="2" />
+          <entry key="CMakeLists.txt" value="62" />
+          <entry key="Disassembly" value="16" />
+          <entry key="Image" value="8" />
+          <entry key="ObjectiveC" value="269" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Python" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.cidr.testingFrameworks.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/utils.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/openmp/gemm_packing_4_4_openmp_0.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/openmp/gemm_packing_4_4_openmp_1.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pthread/gemm_packing_4_4_pthread_0.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serial/gemm_blocking_4_4_0.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serial/gemm_packing_4_4_0.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serial/gemm_packing_4_4_1.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serial/gemm_packing_4_4_2.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serial/pre_transpose.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>float</find>
+      <find>timer_t</find>
+      <find>b[l * lb]</find>
+      <find>gemm2</find>
+      <find>B(l, 0)</find>
+      <find>gemm3</find>
+      <find>const</find>
+      <find>(a_\dl_ptr)\+\+</find>
+      <find>i</find>
+      <find>j</find>
+      <find>c_23_reg</find>
+      <find>(c_\d+_reg)</find>
+      <find>(c_(\d)(\d)_reg)</find>
+      <find>A(0, l)</find>
+      <find>C\((\d), (\d)\)</find>
+      <find>B\(l, \d\)</find>
+      <find>B\(l, (\d)\)</find>
+      <find>A\(\d, l\)</find>
+      <find>A\((\d), l\)</find>
+      <find>c_(\d)(\d)_reg</find>
+      <find>a_(\d)l_4.v, b_r_l.v</find>
+      <find>=</find>
+      <find>gemm</find>
+      <find>-&gt;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>const float</replace>
+      <replace>timer</replace>
+      <replace>B(l,0)</replace>
+      <replace>gemm3</replace>
+      <replace>b_l_0_reg</replace>
+      <replace>gemm4</replace>
+      <replace>(\1)</replace>
+      <replace>$1</replace>
+      <replace>($1+1)</replace>
+      <replace>($1+2)</replace>
+      <replace>($1+3)</replace>
+      <replace>0</replace>
+      <replace>1</replace>
+      <replace>2</replace>
+      <replace>3</replace>
+      <replace>$1 = 0.0</replace>
+      <replace>C($2,$3) = $1</replace>
+      <replace>c_$1$2_reg</replace>
+      <replace>b_l$1_reg</replace>
+      <replace>a_reg</replace>
+      <replace>a_\dl_reg</replace>
+      <replace>a_$1l_reg</replace>
+      <replace>c_$1.d[$2]</replace>
+      <replace>t_$1.v</replace>
+      <replace>+=</replace>
+      <replace>./cmake-build-debug/bin/gemm</replace>
+      <replace>[i].</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/serial/vactor_mul_avx.c" />
+        <option value="$PROJECT_DIR$/src/serial/vector_mul_avx.c" />
+        <option value="$PROJECT_DIR$/src/serial/vector_mul.c" />
+        <option value="$PROJECT_DIR$/src/serial/avx/vector_mul_avx.c" />
+        <option value="$PROJECT_DIR$/src/serial/fma/vector_mul_fma.c" />
+        <option value="$PROJECT_DIR$/src/serial/avx/pre_transpost_avx.c" />
+        <option value="$PROJECT_DIR$/src/serial/block.c" />
+        <option value="$PROJECT_DIR$/cache_profile.sh" />
+        <option value="$PROJECT_DIR$/valgrind/cache_profile.sh" />
+        <option value="$PROJECT_DIR$/src/serial/gemm2.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm3.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm4.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm6.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm5.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm7.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm_4_4_3.c" />
+        <option value="$PROJECT_DIR$/src/openmp/row_openmp.c" />
+        <option value="$PROJECT_DIR$/test_config_data" />
+        <option value="$PROJECT_DIR$/time_test.py" />
+        <option value="$PROJECT_DIR$/src/serial/simple.c" />
+        <option value="$PROJECT_DIR$/src/serial/fma/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/serial/gemm_openblas.c" />
+        <option value="$PROJECT_DIR$/src/serial/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/openmp/gemm_packing_4_4_openmp_2.c" />
+        <option value="$PROJECT_DIR$/src/openmp/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/pthread/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/header/utils/utils.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/serial/gemm0.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm1.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm_4_1_0.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm_4_1_1.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm_4_1_2.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm_4_1_3.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm_4_1_4.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm_4_4_0.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm_4_4_1.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm_4_4_2.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm_blocking_4_4_0.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm_packing_4_4_0.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm_packing_4_4_1.c" />
+        <option value="$PROJECT_DIR$/src/serial/gemm_packing_4_4_2.c" />
+        <option value="$PROJECT_DIR$/src/serial/pre_transpose.c" />
+        <option value="$PROJECT_DIR$/src/serial/avx/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/pthread/gemm_packing_4_4_pthread_0.c" />
+        <option value="$PROJECT_DIR$/src/serial/avx/gemm_4_4_3_avx.c" />
+        <option value="$PROJECT_DIR$/src/util/utils.c" />
+        <option value="$PROJECT_DIR$/src/openmp/gemm_packing_4_4_openmp_0.c" />
+        <option value="$PROJECT_DIR$/src/openmp/gemm_packing_4_4_openmp_1.c" />
+        <option value="$PROJECT_DIR$/test_config" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="175" />
+    <option name="y" value="80" />
+    <option name="width" value="1043" />
+    <option name="height" value="656" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MatrixMultiplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MatrixMultiplication" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../parallelprogramming" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/serial/avx" />
+      <recent name="$PROJECT_DIR$/src/openmp" />
+      <recent name="$PROJECT_DIR$/src/serial" />
+      <recent name="$PROJECT_DIR$/src/serial/fma" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pthread" />
+      <recent name="$PROJECT_DIR$/src/serial/fma" />
+      <recent name="$PROJECT_DIR$/src/serial" />
+      <recent name="$PROJECT_DIR$/valgrind" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.gemm_4_4_3">
+    <configuration name="cache_profile.sh" type="BashConfigurationType" factoryName="Bash">
+      <module name="MatrixMultiplication" />
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cache_profile.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm0" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1000 1000 1000" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm0" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm0">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1000 1000 1000" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_4_1_1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_4_1_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_4_1_1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_4_1_2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_4_1_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_4_1_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_4_1_3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_4_1_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_4_1_3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_4_1_4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_4_1_4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_4_1_4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_4_4_0" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1000 1000 1000" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_4_4_0" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_4_4_0">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_4_4_1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1000 1000 1000" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_4_4_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_4_4_1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_4_4_2" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="4 4 4" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_4_4_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_4_4_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_4_4_3" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1000 1000 1000" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_4_4_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_4_4_3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_4_4_3_avx" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1000 1000 1000" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_4_4_3_avx" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_4_4_3_avx">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_blocking_4_4_0" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1024 1024 1024" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_blocking_4_4_0" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_blocking_4_4_0">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_openblas" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1000 1000 1000" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_openblas" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_openblas">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_packing_4_4_0" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1000 1000 1000" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_packing_4_4_0" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_packing_4_4_0">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_packing_4_4_1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1000 1000 1000" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_packing_4_4_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_packing_4_4_1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_packing_4_4_2" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1000 1000 1000" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_packing_4_4_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_packing_4_4_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_packing_4_4_openmp_0" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1000 1000 1000 4" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_packing_4_4_openmp_0" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_packing_4_4_openmp_0">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_packing_4_4_openmp_1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1000 1000 1000 4" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_packing_4_4_openmp_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_packing_4_4_openmp_1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_packing_4_4_openmp_2" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1000 1000 1000 4" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_packing_4_4_openmp_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_packing_4_4_openmp_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gemm_packing_4_4_pthread_0" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1000 1000 1000 4" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="gemm_packing_4_4_pthread_0" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="gemm_packing_4_4_pthread_0">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pre_transpose" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1000 1000 1000" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="pre_transpose" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="pre_transpose">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pre_transpose_avx" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1000 1000 1000" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="pre_transpose_avx" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="pre_transpose_avx">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="row_openmp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="row_openmp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="row_openmp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simple" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="10 10 10" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="simple" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="simple">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="utils" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="utils" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vector_mul_avx" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="vector_mul_avx" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="vector_mul_avx">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vector_mul_fma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixMultiplication" TARGET_NAME="vector_mul_fma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixMultiplication" RUN_TARGET_NAME="vector_mul_fma">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="time_test" type="PythonConfigurationType" factoryName="Python">
+      <module name="MatrixMultiplication" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/time_test.py" />
+      <option name="PARAMETERS" value="test_config" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.gemm_packing_4_4_openmp_0" />
+      <item itemvalue="Application.gemm_packing_4_4_openmp_1" />
+      <item itemvalue="Application.gemm_packing_4_4_openmp_2" />
+      <item itemvalue="Application.row_openmp" />
+      <item itemvalue="Application.gemm_packing_4_4_pthread_0" />
+      <item itemvalue="Application.gemm0" />
+      <item itemvalue="Application.gemm1" />
+      <item itemvalue="Application.gemm_4_1_1" />
+      <item itemvalue="Application.gemm_4_1_2" />
+      <item itemvalue="Application.gemm_4_1_3" />
+      <item itemvalue="Application.gemm_4_1_4" />
+      <item itemvalue="Application.gemm_4_4_0" />
+      <item itemvalue="Application.gemm_4_4_1" />
+      <item itemvalue="Application.gemm_4_4_2" />
+      <item itemvalue="Application.gemm_4_4_3" />
+      <item itemvalue="Application.gemm_blocking_4_4_0" />
+      <item itemvalue="Application.gemm_openblas" />
+      <item itemvalue="Application.gemm_packing_4_4_0" />
+      <item itemvalue="Application.gemm_packing_4_4_1" />
+      <item itemvalue="Application.gemm_packing_4_4_2" />
+      <item itemvalue="Application.pre_transpose" />
+      <item itemvalue="Application.simple" />
+      <item itemvalue="Application.gemm_4_4_3_avx" />
+      <item itemvalue="Application.pre_transpose_avx" />
+      <item itemvalue="Application.vector_mul_avx" />
+      <item itemvalue="Application.vector_mul_fma" />
+      <item itemvalue="Application.utils" />
+      <item itemvalue="Bash.cache_profile.sh" />
+      <item itemvalue="Python.time_test" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1cf1712-5988-43d5-9d6c-f55b2c7646b6" name="Default Changelist" comment="" />
+      <created>1539254403005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539254403005</updated>
+      <workItem from="1539254405407" duration="1725000" />
+      <workItem from="1540038861901" duration="621000" />
+      <workItem from="1540080721720" duration="16507000" />
+      <workItem from="1540100767294" duration="1588000" />
+      <workItem from="1540102398563" duration="3468000" />
+      <workItem from="1540193938390" duration="295000" />
+      <workItem from="1540194285790" duration="2733000" />
+      <workItem from="1540197430894" duration="295000" />
+      <workItem from="1540197768471" duration="5849000" />
+      <workItem from="1540209332647" duration="2342000" />
+      <workItem from="1540280952520" duration="1826000" />
+      <workItem from="1540283119938" duration="10000" />
+      <workItem from="1540284037374" duration="956000" />
+      <workItem from="1540298756156" duration="2413000" />
+      <workItem from="1540389720231" duration="2924000" />
+      <workItem from="1540447014808" duration="4385000" />
+      <workItem from="1540454023371" duration="19109000" />
+      <workItem from="1540515186169" duration="1528000" />
+      <workItem from="1540517286697" duration="236000" />
+      <workItem from="1540521614219" duration="391000" />
+      <workItem from="1540522447537" duration="16000" />
+      <workItem from="1540541588399" duration="69000" />
+      <workItem from="1540543166946" duration="1241000" />
+      <workItem from="1540544525720" duration="1177000" />
+      <workItem from="1540547751322" duration="4796000" />
+      <workItem from="1540552763804" duration="491000" />
+      <workItem from="1540553488721" duration="8526000" />
+      <workItem from="1540640388406" duration="18000" />
+      <workItem from="1540914135992" duration="1682000" />
+      <workItem from="1540890585053" duration="101000" />
+      <workItem from="1540893116432" duration="181000" />
+      <workItem from="1540896539729" duration="485000" />
+      <workItem from="1540901490601" duration="429000" />
+      <workItem from="1540972396653" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="88432000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="45" y="-4" width="1321" height="772" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3035294" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.48452014" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.60681117" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49972662" weight="0.38162544" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.43188855" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30495358" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50027335" side_tool="true" weight="0.48643005" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.46594426" />
+      <window_info anchor="bottom" id="REST Client" order="13" weight="0.32985386" />
+      <window_info anchor="bottom" id="File Transfer" order="14" visible="true" weight="0.42402828" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32941177" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.29568627" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>CROSS_BLOCK_HIGH(3, 4, 4)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>CROSS_BLOCK_HIGH(2, 4, 4)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>CROSS_BLOCK_HIGH(1, 4, 4)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>CROSS_BLOCK_HIGH(0, 4, 4)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((end_i - start_i + 1) &lt;&lt; 2)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(end_i - start_i + 1)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(end_i - start_i + 1) &lt;&lt; 2)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/valgrind/pre_transpose_1000_1000_1000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/block.c" />
+    <entry file="file://$PROJECT_DIR$/valgrind/cache_profile.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/gemm_4_1_5.c" />
+    <entry file="file:///usr/lib/gcc/x86_64-linux-gnu/5/include/avxintrin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="1195" selection-start-line="1195" selection-end-line="1195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/console_utils.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/bin/a" />
+    <entry file="file://$PROJECT_DIR$/src/header/utils/random_uitls.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/gcc/x86_64-linux-gnu/8/include/avxintrin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="858" selection-start-line="858" selection-end-line="858" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/fma/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gflops_chart_pre_tranpose.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gflops_chart_2018_10_26.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_config_data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/OpenBLAS/include/cblas.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="252" column="135" selection-start-line="252" selection-start-column="120" selection-end-line="252" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/openmp/row_openmp.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pthread.c" />
+    <entry file="file://$PROJECT_DIR$/src/openmp/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="49" column="62" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pthread/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/header/utils/utils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="90" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/gemm_openblas.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/simple.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/fma/vector_mul_fma.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/avx/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/gemm0.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/gemm1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/gemm_4_1_0.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/gemm_4_1_1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/gemm_4_1_2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/gemm_4_1_3.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/gemm_4_4_0.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/gemm_4_1_4.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/gemm_4_4_1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/avx/gemm_4_4_3_avx.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/fma/gemm_4_4_3_fma.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/avx/pre_transpose_avx.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/avx/vector_mul_avx.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/gemm_4_4_2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/utils.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/openmp/gemm_packing_4_4_openmp_0.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/openmp/gemm_packing_4_4_openmp_1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pthread/gemm_packing_4_4_pthread_0.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/gemm_blocking_4_4_0.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/gemm_packing_4_4_0.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/gemm_packing_4_4_1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/gemm_packing_4_4_2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serial/pre_transpose.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

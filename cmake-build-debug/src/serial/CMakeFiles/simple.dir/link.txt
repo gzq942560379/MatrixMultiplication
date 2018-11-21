@@ -1,0 +1,1 @@
+gcc  -O3 -Wall   CMakeFiles/simple.dir/simple.c.o  -o ../../bin/simple ../../lib/libutils.a 

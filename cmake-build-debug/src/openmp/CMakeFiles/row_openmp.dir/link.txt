@@ -1,0 +1,1 @@
+gcc  -fopenmp  -O3 -Wall    CMakeFiles/row_openmp.dir/row_openmp.c.o  -o ../../bin/row_openmp ../../lib/libutils.a 

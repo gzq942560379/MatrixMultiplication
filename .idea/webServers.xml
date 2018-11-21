@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c28754a7-ea03-441d-a86f-f5603bfffb39" name="cuda" url="http://s3.sdu-hpcl.org">
+        <fileTransfer host="s3.sdu-hpcl.org" port="22" rootFolder="/home/users/zguo" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

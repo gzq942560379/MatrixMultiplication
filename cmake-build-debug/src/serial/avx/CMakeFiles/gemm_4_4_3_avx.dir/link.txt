@@ -1,0 +1,1 @@
+gcc  -mavx  -O3 -Wall   CMakeFiles/gemm_4_4_3_avx.dir/gemm_4_4_3_avx.c.o  -o ../../../bin/gemm_4_4_3_avx ../../../lib/libutils.a 

@@ -1,0 +1,1 @@
+gcc  -O3 -Wall   CMakeFiles/gemm_openblas.dir/gemm_openblas.c.o  -o ../../bin/gemm_openblas -Wl,-rpath,/opt/OpenBLAS/lib ../../lib/libutils.a /opt/OpenBLAS/lib/libopenblas.so 

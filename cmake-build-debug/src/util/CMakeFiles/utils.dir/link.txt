@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libutils.a  CMakeFiles/utils.dir/console_utils.c.o CMakeFiles/utils.dir/random_uitls.c.o CMakeFiles/utils.dir/time_utils.c.o CMakeFiles/utils.dir/utils.c.o
+/usr/bin/ranlib ../../lib/libutils.a

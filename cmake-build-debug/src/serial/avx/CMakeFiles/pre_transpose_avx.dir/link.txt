@@ -1,0 +1,1 @@
+gcc  -mavx  -O3 -Wall   CMakeFiles/pre_transpose_avx.dir/pre_transpose_avx.c.o  -o ../../../bin/pre_transpose_avx ../../../lib/libutils.a 

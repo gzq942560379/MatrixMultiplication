@@ -1,0 +1,4 @@
+
+
+add_executable(gemm_packing_4_4_pthread_0 gemm_packing_4_4_pthread_0.c)
+target_link_libraries(gemm_packing_4_4_pthread_0 utils pthread)

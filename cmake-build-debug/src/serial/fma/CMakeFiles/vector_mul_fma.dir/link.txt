@@ -1,0 +1,1 @@
+gcc  -mfma  -O3 -Wall   CMakeFiles/vector_mul_fma.dir/vector_mul_fma.c.o  -o ../../../bin/vector_mul_fma ../../../lib/libutils.a 

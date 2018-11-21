@@ -1,0 +1,1 @@
+gcc  -O3 -Wall   CMakeFiles/gemm_4_1_3.dir/gemm_4_1_3.c.o  -o ../../bin/gemm_4_1_3 ../../lib/libutils.a 

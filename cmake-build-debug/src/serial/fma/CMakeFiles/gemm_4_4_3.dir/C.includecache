@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/header/utils/console_utils.h
+
+../src/header/utils/random_uitls.h
+
+../src/header/utils/time_utils.h
+stdbool.h
+-
+sys/time.h
+-
+
+../src/header/utils/utils.h
+stdbool.h
+-
+
+/home/gzq/CLionProjects/MatrixMultiplication/src/serial/fma/gemm_4_4_3_fma.c
+stdio.h
+-
+stdlib.h
+-
+random_uitls.h
+-
+console_utils.h
+-
+utils.h
+-
+time_utils.h
+-
+string.h
+-
+assert.h
+-
+malloc.h
+-
+immintrin.h
+-
+

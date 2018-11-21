@@ -1,0 +1,1 @@
+gcc  -mfma  -O3 -Wall   CMakeFiles/gemm_4_4_3.dir/gemm_4_4_3_fma.c.o  -o ../../../bin/gemm_4_4_3 ../../../lib/libutils.a 
